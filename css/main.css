@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans";
+}
+body{
     font-size:20px;
 }
 /* header section */
@@ -37,7 +39,6 @@ a{
 }
 nav li {
     margin:0 2%;
-    font-size:20px;
 }
 nav li img{
     vertical-align: middle;
@@ -45,24 +46,38 @@ nav li img{
 
 /* hero section */
 h1{
-    font-size:105px;
+    font-size:70px;
 }
 .left-col{
     float:left;
-    width: 30%;
+    width: 40%;
+    font-size: 16px;
+    padding-right: 90px;
 }
-.big-container img{
-    width: 70%;
+.container-80 img{
+    width: 60%;
 }
 .img-overflow{
     position: relative;
     bottom:-60px;
 }
 
+/* info kits section */
+h2{
+    font-size:40px;
+}
+label{
+    padding-right: 2%;
+}
+
 
 /* utilities */
-.big-container{
-    width: 85%;
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+.container-70{
+    width: 70%;
     margin: 0 auto;
 }
 .clearfix::after{
@@ -80,8 +95,11 @@ h1{
 .bg-2{
     background-color: #b4d0e7;
 }
-.padding-5{
-    padding: 5% 0;
+.mb-210{
+    margin-bottom: 210px;
+}
+.mb-75{
+    margin-bottom: 75px;
 }
 .mb-55{
     margin-bottom: 55px;
@@ -91,6 +109,9 @@ h1{
 }
 .mb-45{
     margin-bottom: 45px;
+}
+.mb-40{
+    margin-bottom: 40px;
 }
 .mb-30{
     margin-bottom: 30px;
