@@ -32,6 +32,8 @@ nav section{
 a{
     text-decoration: none;
     color:currentColor;
+    display:inline-block;
+    line-height:normal;
 }
 nav li {
     margin:0 2%;
@@ -44,6 +46,17 @@ nav li img{
 /* hero section */
 h1{
     font-size:105px;
+}
+.left-col{
+    float:left;
+    width: 30%;
+}
+.big-container img{
+    width: 70%;
+}
+.img-overflow{
+    position: relative;
+    bottom:-60px;
 }
 
 
@@ -58,7 +71,7 @@ h1{
     clear: both;
 }
 .button {
-    padding:5px 20px;
+    padding:10px 20px;
 }
 .bg-1{
     background-color: #0061ff ;
@@ -69,4 +82,19 @@ h1{
 }
 .padding-5{
     padding: 5% 0;
+}
+.mb-55{
+    margin-bottom: 55px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-45{
+    margin-bottom: 45px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-15{
+    margin-bottom: 15px;
 }
