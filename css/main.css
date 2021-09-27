@@ -108,6 +108,11 @@ label{
     padding: 140px 275px;
 }
 
+/* footer */
+footer li {
+    display: block;
+}
+
 
 /* utilities */
 .p-box{
@@ -151,6 +156,10 @@ label{
 }
 .bg-5{
     background-color: #b4d0e7;
+}
+.bg-footer{
+    background-color: #000000;
+    color:white;
 }
 .mb-210{
     margin-bottom: 210px;
@@ -199,6 +208,9 @@ label{
 }
 .w30{
     width: 30%;
+}
+.w20{
+    width: 20%;
 }
 .txt-right{
     text-align: right;
