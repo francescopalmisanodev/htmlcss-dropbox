@@ -7,6 +7,9 @@
 body{
     font-size:20px;
 }
+img{
+    width: 100%;
+}
 /* header section */
 header{
     width: 100%;
@@ -81,12 +84,11 @@ label{
     border: 1px solid gray;
 }
 .col-main{
-    padding:40px 20px;
+
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     border-bottom: 1px solid gray;
-    font-size:14px;
-    height:940px; /*delete*/    
+    font-size:14px;    
 }
 .col-main ul {
     margin:50px auto;
@@ -104,6 +106,12 @@ label{
 
 
 /* utilities */
+.p-box{
+    padding:40px 20px;
+}
+.i-b{
+    display: inline-block;
+}
 .container-80{
     width: 80%;
     margin: 0 auto;
@@ -131,8 +139,17 @@ label{
 .bg-2{
     background-color: #b4d0e7;
 }
+.bg-3{
+    border: 1px solid black;
+}
 .mb-210{
     margin-bottom: 210px;
+}
+.mt-150{
+    margin-top: 150px;
+}
+.mb-120{
+    margin-bottom: 120px;
 }
 .mb-75{
     margin-bottom: 75px;
@@ -154,4 +171,16 @@ label{
 }
 .mb-15{
     margin-bottom: 15px;
+}
+.pr-30{
+    padding-right: 30px;
+}
+.left{
+    float: left;
+}
+.w50{
+    width: 50%;
+}
+.w33{
+    width: calc(100%/3);
 }
