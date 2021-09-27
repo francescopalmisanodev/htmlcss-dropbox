@@ -103,6 +103,10 @@ label{
     width: 50px;
 }
 
+/* cta */
+.p-cta {
+    padding: 140px 275px;
+}
 
 
 /* utilities */
@@ -141,6 +145,12 @@ label{
 }
 .bg-3{
     border: 1px solid black;
+}
+.bg-4{
+    background-color: #ccc ;
+}
+.bg-5{
+    background-color: #b4d0e7;
 }
 .mb-210{
     margin-bottom: 210px;
@@ -181,6 +191,15 @@ label{
 .w50{
     width: 50%;
 }
+.w40{
+    width: 40%;
+}
 .w33{
     width: calc(100%/3);
+}
+.w30{
+    width: 30%;
+}
+.txt-right{
+    text-align: right;
 }
