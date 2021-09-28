@@ -155,6 +155,7 @@ footer li {
 
 /* utilities */
 .square {
+    height: 230px;
     line-height: 230px;
     text-align: center;
 }
@@ -208,6 +209,7 @@ footer li {
 }
 .bg-6{
     background-color:#a2d39b;
+    border: 10px solid #d0e9cd;
 }
 .bg-7{
     background-color:#61082b;
